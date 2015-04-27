@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<module external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="RestClient" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+=======
 <module external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="com.vincentbrison.openlibraries.android" external.system.module.version="2.1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+>>>>>>> parent of 3873b5b... Revert "First working version"
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
         <option name="GRADLE_PROJECT_PATH" value=":lib" />
       </configuration>
     </facet>
+<<<<<<< HEAD
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+=======
     <facet type="android" name="Android">
       <configuration>
         <option name="SELECTED_BUILD_VARIANT" value="debug" />
@@ -92,6 +103,7 @@
     <orderEntry type="library" exported="" name="support-annotations-20.0.0" level="project" />
     <orderEntry type="library" exported="" name="support-v4-20.0.0" level="project" />
     <orderEntry type="library" exported="" name="disklrucache-2.0.2" level="project" />
+>>>>>>> parent of 3873b5b... Revert "First working version"
   </component>
 </module>
 
