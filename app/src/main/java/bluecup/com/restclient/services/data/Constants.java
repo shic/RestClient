@@ -8,16 +8,20 @@ import java.util.Map;
  */
 public class Constants {
 
-    //timeout???
-    public static final int CONNECTION_TO = 30*1000;
-    public static final int SO_TO = 30*1000;
+    //http connection timeout
+    public static final int CONNECTION_TO = 120*1000;
+    public static final int SO_TO = 120*1000;
+
+    //easy cache size
+    public static final int RAM_CACHE_SIZE = 1*1024*1024;
+    public static final int DISK_CACHE_SIZE = 30*1024*1024;
 
 
     public static final String EASY_DINNER_URL = "http://www.easydinner.it/";
 
     public static final String apiUrl = "http://www.easydinner.it/appjson.php";
-    public static final String apiUrlTest = "http://graph.facebook.com/pivotalsoftware";
-    public static final String apiUrlBitCoin ="https://bitpay.com/api/rates";
+    //public static final String apiUrlTest = "http://graph.facebook.com/pivotalsoftware";
+    //public static final String apiUrlBitCoin ="https://bitpay.com/api/rates";
     public static final long DB_TTL_MILLIS = 3*24*3600*1000L; // 7d
 
     public static final String ALL_VALUES = "All";
